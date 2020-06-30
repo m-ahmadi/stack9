@@ -1,0 +1,32 @@
+<? include '../_g.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="<?=COMMON?>/images/favicon.ico" />
+	<link rel="stylesheet" href="<?=COMMON?>/_fontfaces.css" />
+	
+	<link rel="stylesheet" href="_built/style.css" />
+	
+	<title>Page 2</title>
+</head>
+
+<body>
+	<? include '../_common/_header.htm' ?>
+	<? include '../_common/_nav.htm' ?>
+	
+	<h1>Page 2 here</h1>
+	
+	<div root="comp1">
+		<input type="text" value="Hi" ref="msgSrc" /><button ref="say">Say</button>
+		<h1 ref="msg"></h1>
+	</div>
+	
+	<script src="<?=COMMON?>/jquery.js"></script>
+	
+	<script src="_built/templates.js"></script>
+	<script src="<?=COMMON?>/_helpers.js"></script>
+	<script type="module" src="main.js"></script>
+</body>
+</html>

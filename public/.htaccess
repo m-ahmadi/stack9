@@ -1,0 +1,2 @@
+php_flag short_open_tag on
+AddType application/x-httpd-php .html .htm
